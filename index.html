@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio BTS SIO - SLAM</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Portfolio BTS SIO</div>
+            <ul class="nav-links">
+                <li><a onclick="showSection('accueil')"><i class="fas fa-home"></i> Accueil</a></li>
+                <li><a onclick="showSection('competences')"><i class="fas fa-code"></i> Compétences</a></li>
+                <li><a onclick="showSection('veille')"><i class="fas fa-eye"></i> Veille Techno</a></li>
+                <li><a onclick="showSection('contact')"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Section Accueil -->
+        <section id="accueil" class="section active">
+            <div class="hero">
+                <h1>Gooriah Julian</h1>
+                <p>Étudiant BTS SIO - Option SLAM</p>
+                <p>Développeur passionné par les nouvelles technologies</p>
+                <div class="hero-buttons">
+                    <button class="btn" onclick="showSection('parcours')">
+                        <i class="fas fa-user"></i> Découvrir mon parcours
+                    </button>
+                    <button class="btn secondary" onclick="showSection('projets')">
+                        <i class="fas fa-laptop-code"></i> Mes projets
+                    </button>
+                </div>
+            </div>
+            
+            <div class="grid">
+                <div class="card">
+                    <h3><i class="fas fa-graduation-cap"></i> Formation</h3>
+                    <p>BTS Services Informatiques aux Organisations, option Solutions Logicielles et Applications Métiers (SLAM)</p>
+                </div>
+                <div class="card">
+                    <h3><i class="fas fa-briefcase"></i> Stage</h3>
+                    <p>2 mois de stage dans une entreprise informatique spécialisée en développement d'applications métier</p>
+                </div>
+                <div class="card">
+                    <h3><i class="fas fa-target"></i> Objectif</h3>
+                    <p>Approfondissement des compétences et découverte du monde professionnel</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Parcours -->
+        <section id="parcours" class="section">
+            <h2>Mon Parcours</h2>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>2024-2025 - BTS SIO SLAM (1ère année)</h3>
+                    <p><strong>École :</strong> Ipssi</p>
+                    <p>Approfondissement des compétences en développement, gestion de projets et veille technologique. Stage de 2 mois en entreprise.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <h3>2023-2024 - Baccalauréat</h3>
+                    <p><strong>Spécialité :</strong> Mathématiques / SES (Science Economique et Sociale)</p>
+                    <p>Obtention du baccalauréat</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Expériences Professionnelles</h3>
+                <div style="margin-top: 1rem;">
+                    <h4 style="color: var(--text-light);">Formation ADMIN (Janvier 2023) et Stage de 2 mois au sein de l'entreprise Nids</h4>
+                    <p><strong>Secteur :</strong> Création d'applications métiers sur mesure</p>
+                    <p><strong>Taille :</strong> TPE de 8 employés</p>
+                    <p><strong>Missions durant la Formation :</strong></p>
+                    <ul style="margin-left: 2rem; margin-top: 0.5rem;">
+                        <li><strong>Formation:</strong> Utilisation de l'outil GoPaas permettant de créer des applications métiers fiables et évolutives</li>
+                    </ul>
+                    <p><strong>Stage:</strong></p>
+                    <ul style="margin-left: 2rem; margin-top: 0.5rem;">
+                        <li><strong></strong> Création d'une application métier pour la gestion de joueurs de foot</li>
+                        <li>Création de vues HTML et CSS pour l'ergonomie des applications suite à la demande des clients</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Compétences -->
+        <section id="competences" class="section">
+            <h2>Mes Compétences</h2>
+            
+            <div class="card">
+                <h3>Tableau de Synthèse - Compétences Majeures SLAM</h3>
+                <p>Voici les 5 compétences principales développées selon le référentiel BTS SIO :</p>
+                
+                <div style="margin: 2rem 0;">
+                    <div class="competence-badge">Développer la présence en ligne de l'organisation</div>
+                    <p style="margin: 1rem 0;"><strong>Description :</strong>
+                        <li>Créé une vingtaine de vues HTML et CSS sur demande clients</li>
+                        <li>Participé à l'évolution d'applications web exploitant les données de l'organisation</li>
+                        <li>Travaillé sur l'interface utilisateur d'applications métiers</li></p>
+                </div>
+                
+                <div style="margin: 2rem 0;">
+                    <div class="competence-badge">Travailler en mode projet</div>
+                    <p style="margin: 1rem 0;"><strong>Description :</strong>
+                        <li>J'ai analysé les objectifs du projet du client (cahier des charges: ISC.PRO.WORLD)</li>
+                       <li> Planification et organisation du développement selon les demandes des clients et du cahier des charges</li></p>
+                </div>
+                
+                <div style="margin: 2rem 0;">
+                    <div class="competence-badge">Répondre aux incidents et demandes d'assistance</div>
+                    <p style="margin: 1rem 0;"><strong>Description :</strong> 
+                        <li>Traitement des demandes utilisateurs, résolution de problèmes techniques, maintenance applicative et support utilisateur.</li></p>
+                </div>
+                
+                <div style="margin: 2rem 0;">
+                    <div class="competence-badge">Mettre à disposition un service informatique</div>
+                    <p style="margin: 1rem 0;"><strong>Description :</strong>
+                        <li> Suite à la réalisation des vues créées, j'ai éffectué plusieurs tests avant de la mettre l'application en PROD.</li><p>
+                </div>
+                
+                <div style="margin: 2rem 0;">
+                    <div class="competence-badge">Organiser son développement professionnel</div>
+                    <p style="margin: 1rem 0;"><strong>Description :</strong>
+                       <li> Traitement des demandes concernant l'application de gestion de joueurs</li>
+                        <li>J'ai fait évoluer l'application selon différents retours utilisateurs</li>
+                    </p>                    
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="card">
+                    <h3><i class="fas fa-code"></i> Langages de Programmation</h3>
+                    <div class="tech-stack">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">Javascript</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Projets -->
+        <section id="projets" class="section">
+            <h2>Mes Projets</h2>
+            
+            <div class="card" style="text-align: center; margin-bottom: 3rem;">
+                <h3>Projets chez Nids</h3>
+                <p>Tout les projets durant mon stage a été réalisé avec la plateforme GoPaas. Cette plateforme permet de créer et de gérer des applications métiers. Elle est simple, rapide et évolutive.
+                    Elle permet également de générer de nouvelles fonctionnalités en quelques heures et sans utiliser une seule ligne de code (no code/low code).
+
+                </p>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>1er projet : Création d'application permettant de simplifier la gestion des joueurs du monde.</h3>
+                    <p><strong>Mission :</strong> Créer une application simple et agile pour simplifier la gestion de millier de joueurs de foot dans tout le monde.</p>
+
+                </div>
+                <div class="project-body">
+                    <!-- 1ere capture d'écran -->
+                    <div class="screenshot-section">
+                        <img src="image/screen1.png" alt="Documentation Swagger de l'API TaskManager" class="project-image" onclick="openLightbox('image/screen1.png')">
+                        <div class="description-box">
+                            <h4>Page de Connexion - ISC.PRO.WORLD</h4>
+                        </div>
+                    </div>
+
+                    <!-- 2e capture d'écran -->
+                    <div class="screenshot-section">
+                        <img src="image/screen2.png" alt="Tests d'API avec Postman" class="project-image" onclick="openLightbox('image/screen2.png')">
+                        <div class="description-box">
+                            <h4>Dashboard Accueil de l'application 'ISC PRO WORLD'</h4>
+                            <p>Apercu de 4 icones (Joueurs, Attributs,Observation et Test). Ces quatres modules principaux organisés en cartes sont des tables</p>
+                        </div>
+                    </div>
+
+                    <!-- 3e capture d'écran -->
+                    <div class="screenshot-section">
+                        <img src="image/screen3.png" alt="Documentation Swagger de l'API TaskManager" class="project-image" onclick="openLightbox('image/screen3.png')">
+                        <div class="description-box">
+                            <h4>Interface de Gestion des Joueurs - ISC.PRO.WORLD</h4>
+                            <p>Cette table 'Joueurs' est un moyen pour les recruteurs de gérer les joueurs grace à des vues qui permettent de différencier chaque joueur avec les notes, les images etc ...</p>
+                        </div>
+                    </div>
+
+                    <!-- 4e capture d'écran -->
+                    <div class="screenshot-section">
+                        <img src="image/screen4.png" alt="Tests d'API avec Postman" class="project-image" onclick="openLightbox('image/screen4.png')">
+                        <div class="description-box">
+                            <h4>Création/Édition de Joueur - ISC.PRO.WORLD</h4>
+                            <p>Lorsque l'on clique sur une des vues ou sur le bouton 'Ajouter', cela nous amène dans une interface qui permet de voir ou de modifier les caractéristiques des joueurs. 
+                                Nous pouvons également ajouter des 'Test' au joueur des 'Attributs' que ça soit Technique, Tactique, Physique, Mental ou bien l'Intelligence de jeu.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- 5e capture d'écran -->
+                    <div class="screenshot-section">
+                        <img src="image/screen6.png" alt="Tests d'API avec Postman" class="project-image" onclick="openLightbox('image/screen6.png')">
+                        <div class="description-box">
+                            <h4>Module d'Évaluation des Attributs - ISC.PRO.WORLD</h4>
+                            <p>Cette image présente le module d'évaluation détaillée des attributs d'un joueur dans l'application ISC.PRO.WORLD, affichant une interface d'évaluation complète avec des 'Sliders' interactifs pour noter les compétences tactiques, techniques, physque, mental et intelligence de jeu sur une échelle numérique, chaque section calculant automatiquement une moyenne générale (Tactique: 6,85 et Technique: 6,875), démontrant un système d'évaluation professionnel et précis pour l'analyse des performances sportives de chaque joueurs.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+          <!-- Section Vues HTML avec design glassmorphism -->
+          <div class="views-improvement-section">
+            <div class="views-header">
+                <h3>Amélioration des Vues HTML/CSS</h3>
+                <p class="views-mission"><strong>Mission :</strong> Optimisation de l'ergonomie des applications clientes</p>
+            </div>
+            
+            <!-- Première comparaison -->
+            <div class="views-comparison-group">
+                <h4 class="views-section-title">VUE pour le client PRESTABAT</h4>
+                <div class="views-comparison-layout">
+                    <div class="view-section before single-image">
+                        <h5 class="view-title">Vue GoPaas avant modification</h5>
+                        <img src="image/vuee1.png" alt="Vue GoPaas avant modification" class="screenshot" onclick="openLightbox('image/vuee1.png')">
+                    </div>
+
+                    <div class="view-section after single-image">
+                        <h5 class="view-title">Vue GoPaas après modification</h5>
+                        <img src="image/vue1_.png" alt="Vue GoPaas après modification" class="screenshot" onclick="openLightbox('image/vue1_.png')">
+                        <p class="view-description">Utilisé par PRESTABAT</p>
+                    </div>
+                    
+                    <div class="comparison-arrow">→</div>
+                </div>
+            </div>
+
+           
+
+            <!-- Troisième comparaison -->
+            <div class="views-comparison-group">
+                <h4 class="views-section-title">VUE pour le client ISCE</h4>
+                <div class="views-comparison-layout">
+                    <div class="view-section before single-image">
+                        <h5 class="view-title">Vue GoPaas avant modification</h5>
+                        <img src="image/vue12.png" alt="Vue GoPaas avant modification" class="screenshot" onclick="openLightbox('image/vue12.png')">
+                    </div>
+
+                    <div class="view-section after single-image">
+                        <h5 class="view-title">Vue GoPaas après modification</h5>
+                        <img src="image/vue12_.png" alt="Vue GoPaas après modification" class="screenshot" onclick="openLightbox('image/vue12_.png')">
+                        <p class="view-description">Utilisé par ISCE</p>
+                    </div>
+                    
+                    <div class="comparison-arrow">→</div>
+                </div>
+            </div>
+
+            <!-- Quatrième comparaison -->
+            <div class="views-comparison-group">
+                <h4 class="views-section-title">VUE pour le client ADSS</h4>
+                <div class="views-comparison-layout">
+                    <div class="view-section before single-image">
+                        <h5 class="view-title">Vue GoPaas avant modification</h5>
+                        <img src="image/vue13.png" alt="Vue GoPaas avant modification" class="screenshot" onclick="openLightbox('image/vue13.png')">
+                    </div>
+
+                    <div class="view-section after single-image">
+                        <h5 class="view-title">Vue GoPaas après modification</h5>
+                        <img src="image/vue13_.png" alt="Vue GoPaas après modification" class="screenshot" onclick="openLightbox('image/vue13_.png')">
+                        <p class="view-description">Utilisé par ADSS</p>
+                    </div>
+                    
+                    <div class="comparison-arrow">→</div>
+                </div>
+            </div>
+
+ <!-- Cinquieme comparaison -->
+ <div class="views-comparison-group">
+    <h4 class="views-section-title">VUE pour le client HOMELIFE</h4>
+    <div class="views-comparison-layout">
+        <div class="view-section before single-image">
+            <h5 class="view-title">Vue GoPaas avant modification</h5>
+            <img src="image/vue14.png" alt="Vue GoPaas avant modification" class="screenshot" onclick="openLightbox('image/vue14.png')">
+        </div>
+
+        <div class="view-section after single-image">
+            <h5 class="view-title">Vue GoPaas après modification</h5>
+            <img src="image/vue14_.png" alt="Vue GoPaas après modification" class="screenshot" onclick="openLightbox('image/vue14_.png')">
+            <p class="view-description">Utilisé par (nb)</p>
+        </div>
+        
+        <div class="comparison-arrow">→</div>
+    </div>
+</div>
+
+        </div>
+                                   
+            <div class="description-box-obj">
+                <p><strong>Objectifs Techniques :</strong></p>
+                <ul style="margin-left: 1.5rem; margin-bottom: 1rem;">
+                    <li>Utilisation de la plateforme GoPaas</li>
+                    <li>Implémenter le responsive design</li>
+                </ul>
+
+                    <p><strong>Objectifs Utilisateurs :</strong></p>
+                    <ul style="margin-left: 1.5rem; margin-bottom: 1rem;">
+                        <li>Assurer la satisfaction client suite aux différentes demandes</li>
+                        <li>Développer une interface intuitive avec navigation fluide entre les 4 modules principaux                        </li>
+                        <li>Améliorer l'accessibilité</li>
+                    </ul>
+            </div>
+                        
+                
+              
+        
+            <div class="card" style="text-align: center; margin-top: 3rem; background: var(--gradient); color: white;">
+                <h3>Clients</h3>
+                <div class="grid grid-3">
+                    <div style="background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 15px; backdrop-filter: blur(10px);">
+                        <h4>ISCE</h4>
+                        <p>Développement d'une app de gestion de budget avec React Native</p>
+                    </div>
+                    <div style="background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 15px; backdrop-filter: blur(10px);">
+                        <h4>ADSS</h4>
+                        <p>Exploration du machine learning avec Python et TensorFlow</p>
+                    </div>
+                    <div style="background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 15px; backdrop-filter: blur(10px);">
+                        <h4>PRESTABAT</h4>
+                        <p>Déploiement d'applications sur AWS avec Docker</p>
+                    </div>
+                    <div style="background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 15px; backdrop-filter: blur(10px);">
+                        <h4>HOMELIFE</h4>
+                        <p>Exploration du machine learning avec Python et TensorFlow</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox pour agrandir les images -->
+        <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+            <span class="close" onclick="closeLightbox()">&times;</span>
+            <img id="lightbox-img" src="" alt="">
+        </div>
+
+        <!-- Section Veille Technologique -->
+        <section id="veille" class="section">
+            <h2>Veille Technologique</h2>
+            
+            <div class="card">
+                <h3>Ma Stratégie de Veille</h3>
+                <pDans le cadre de ma formation en BTS SIO option SLAM, j’ai mené une veille technologique active afin de rester informé des dernières innovations et tendances dans le domaine du développement logiciel et des technologies web. Cette veille m’a permis de suivre de près l’essor de l’intelligence artificielle générative (comme ChatGPT et GitHub Copilot) ainsi que le développement des plateformes no code/low code, en particulier Gopaas, qui facilite la création d’applications métiers sans programmation avancée. Ces outils transforment la manière de concevoir des solutions numériques, en rendant le développement accessible à un public plus large et en accélérant la mise en œuvre des projets.</p>
+            </div>
+            <br><br>
+
+            <h3>Sources d'Information</h3>
+            <div class="veille-sources">
+                <div class="source-card">
+                    <h4><i class="fas fa-globe"></i> Sites Spécialisés</h4>
+                    <ul style="text-align: left; margin-top: 1rem;">
+                        <li>Stack Overflow</li>
+                        <li>GitHub Trending</li>
+                        <li>Dev.to</li>
+                        <li>MDN Web Docs</li>
+                    </ul>
+                </div>
+                
+                <div class="source-card">
+                    <h4><i class="fab fa-youtube"></i> Chaînes YouTube</h4>
+                    <ul style="text-align: left; margin-top: 1rem;">
+                        <li>Grafikart</li>
+                        <li>Le Designer du Web</li>
+                        <li>Coding Train</li>
+                        <li>Fireship</li>
+                    </ul>
+                </div>
+                
+                <div class="source-card">
+                    <h4><i class="fas fa-share-alt"></i> Réseaux Sociaux</h4>
+                    <ul style="text-align: left; margin-top: 1rem;">
+                        <li>Twitter Tech</li>
+                        <li>LinkedIn</li>
+                        <li>Reddit r/programming</li>
+                        <li>Discord Tech</li>
+                    </ul>
+                </div>
+                
+                <div class="source-card">
+                    <h4><i class="fas fa-podcast"></i> Podcasts</h4>
+                    <ul style="text-align: left; margin-top: 1rem;">
+                        <li>ifttd (If This Then Dev)</li>
+                        <li>Syntax</li>
+                        <li>The Changelog</li>
+                        <li>Code[ish]</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3>Tendances & Innovations Suivies</h3>
+            <div class="grid">
+                <div class="card">
+                    <h3><i class="fas fa-robot"></i> Intelligence Artificielle</h3>
+                    <p>Suivi des développements en IA générative, ChatGPT, GitHub Copilot et leur impact sur le développement logiciel.</p>
+                    <span class="highlight">Veille active</span>
+                </div>
+                
+                <div class="card">
+                    <h3><i class="fas fa-cloud"></i> GoPaas</h3>
+                    <p>Évolutions des services AWS, Azure, Google Cloud et technologies containerisées (Docker, Kubernetes).</p>
+                    <span class="highlight">Formation continue</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Contributions & Partage</h3>
+                <p>Je partage régulièrement mes découvertes via :</p>
+                <ul style="margin-left: 2rem; margin-top: 1rem;">
+                    <li>Articles de blog sur les nouvelles technologies testées</li>
+                    <li>Participation à des forums de développeurs</li>
+                    <li>Création de projets open source sur GitHub</li>
+                    <li>Veille partagée avec mes collègues de promotion</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            
+            <div class="contact-info">
+                <h3>Restons en contact !</h3>
+                <p><i class="fas fa-envelope"></i> votre.email@example.com</p>
+                <p><i class="fas fa-phone"></i> 06 XX XX XX XX</p>
+                <p><i class="fas fa-map-marker-alt"></i> Votre ville, France</p>
+                
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                </div>
+                
+                <p style="margin-top: 2rem; font-style: italic;">
+                    "Passionné par le développement et toujours prêt à relever de nouveaux défis technologiques !"
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        function showSection(sectionName) {
+            // Masquer toutes les sections
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.classList.remove('active');
+            });
+            
+            // Afficher la section demandée
+            const targetSection = document.getElementById(sectionName);
+            if (targetSection) {
+                targetSection.classList.add('active');
+            }
+            
+            // Scroller vers le haut
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function openLightbox(imageSrc) {
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImg = document.getElementById('lightbox-img');
+            lightboxImg.src = imageSrc;
+            lightbox.style.display = 'block';
+            
+            // Empêcher le scroll de la page quand le lightbox est ouvert
+            document.body.style.overflow = 'hidden';
+        }
+        
+        function closeLightbox() {
+            const lightbox = document.getElementById('lightbox');
+            lightbox.style.display = 'none';
+            
+            // Remettre le scroll de la page
+            document.body.style.overflow = 'auto';
+        }
+        
+        // Fermer le lightbox avec la touche Escape
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeLightbox();
+            }
+        });
+        
+        // Empêcher la fermeture quand on clique sur l'image
+        document.getElementById('lightbox-img').addEventListener('click', function(e) {
+            e.stopPropagation();
+        });
+
+        // Animation au scroll
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.background = 'rgba(15, 15, 35, 0.95)';
+            } else {
+                header.style.background = 'rgba(15, 15, 35, 0.9)';
+            }
+        });
+    </script>
+</body>
+</html>
