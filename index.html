@@ -378,49 +378,38 @@
 
        <!-- Section Veille Technologique -->
 <section id="veille" class="section">
-    <h2>Veille Technologique</h2>
+    <h2>Veille et automatisation avec n8n</h2>
     
     <div class="card">
-        <h3>Ma Stratégie de Veille</h3>
-        <p>Dans le cadre de ma formation en BTS SIO option SLAM, j’ai mis en place une veille technologique centrée sur l’évolution de l’intelligence artificielle. Cette veille m’a permis de suivre l’impact croissant des IA génératives (ChatGPT, GitHub Copilot) sur le développement logiciel, notamment dans l’automatisation des tâches, l’assistance à la programmation et la génération de contenu. J’ai également suivi l’évolution de GoPaas, une solution no code/low code qui révolutionne la création d’applications métiers, en combinant simplicité d’usage, hébergement cloud et gestion agile des workflows métier.</p>
+        <p>Dans le cadre de mon stage, j’ai mis en place une veille technologique axée sur l'outil n8n, plateforme open-source de workflows low-code. Mon objectif principal était d'automatiser la récupération d'emails, leur transformation en JSON, et leur intégration dans GoPaaS pour alimenter des tableaux de bord ou des processus métiers.</p>
     </div>
     <br><br>
 
     <h3>Sources d'Information</h3>
     <div class="veille-sources">
         <div class="source-card">
-            <h4><i class="fas fa-globe"></i> Sites Spécialisés</h4>
+            <h4><i class="fas fa-globe"></i> WorkFlow réalisé
             <ul style="text-align: left; margin-top: 1rem;">
-                <li>Stack Overflow</li>
-                <li>GitHub Trending</li>
-                <li>Medium (IA & GoPaas)</li>
-                <li>Journal du Net</li>
-            </ul>
-        </div>
-        
-        <div class="source-card">
-            <h4><i class="fab fa-youtube"></i> Chaînes YouTube</h4>
-            <ul style="text-align: left; margin-top: 1rem;">
-                <li>Fireship (IA & cloud)</li>
-                <li>IA School</li>
-                <li>OpenAI YouTube</li>
-                <li>Le Designer du Web</li>
+                <li>Trigger – Email : j’ai utilisé le nœud Email Trigger (IMAP/Gmail) pour détecter automatiquement les nouveaux messages entrants community.n8n.io+15n8n.io+15community.n8n.io+15.</li>
+                <li>Extraction des données : grâce aux nœuds intégrés, j’ai extrait les contenus essentiels (expéditeur, date, corps du message). La transformation en JSON s’est appuyée sur la conversion via les capacités du nœud ou des fonctions JavaScript personnalisées, s'inspirant de la communauté n8n pour envoyer un JSON via email ou définir un format exploitable .</li>
+                <li>Export JSON : le workflow est exportable au format JSON, facilitant le partage ou le versioning n8n.io+2docs.n8n.io+2docs.n8n.io+2.
+                <li>Envoi vers GoPaaS : j’ai ajouté un nœud HTTP Request (ou webhook) pour Exporting and importing workflows | n8n Docsenvoyer automatiquement chaque email transformé vers GoPaaS, où il alimente des processus d’analyse ou des bases de données.
+</li>
+                </li>
             </ul>
         </div>
     </div>
 
-    <h3>Tendances & Innovations Suivies</h3>
+    <h3>Sources & Contributions</h3>
     <div class="grid">
         <div class="card">
             <h3><i class="fas fa-robot"></i> Intelligence Artificielle</h3>
-            <p>Suivi de l'essor de l'IA générative et ses usages concrets : génération de code (GitHub Copilot), optimisation de requêtes, assistants intelligents et automatisation des processus métiers.</p>
-            <span class="highlight">Veille active</span>
+     <p>Documentation officielle de n8n pour comprendre les nœuds Email Trigger et HTTP Request, ainsi que l’export des workflows en JSON docs.n8n.io+7docs.n8n.io+7n8n.io+7.</p>>
         </div>
         
         <div class="card">
             <h3><i class="fas fa-cloud"></i> GoPaas</h3>
-            <p>Découverte des fonctionnalités de GoPaas, plateforme low-code facilitant la création d’applications métiers hébergées dans le cloud, avec gestion simplifiée des bases de données, des droits utilisateurs et des interfaces.</p>
-            <span class="highlight">Exploration continue</span>
+            <p>Blog et vidéos YouTube (n8n, syrom, etc.) m’ont inspiré pour structurer proprement les workflows et assurer leur robustesse medium.com+1medium.com+1.</p>
         </div>
     </div>
 
