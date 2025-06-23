@@ -381,7 +381,8 @@
         </div>
 
        <!-- Section Veille Technologique -->
-<section id="veille" class="section">
+
+       <section id="veille" class="section">
     <h2>Veille et automatisation avec n8n</h2>
     
     <div class="card">
@@ -391,31 +392,35 @@
     <br><br>
 
     <h3>Sources d'Information</h3>
-    <div class="veille-sources">
-        <div class="source-card">
-            <h4><i class="fas fa-globe"></i> WorkFlow réalisé</h4>
-            <ul style="text-align: left; margin-top: 1rem;">
-                <li>
-                    <strong>Trigger – Email :</strong> j’ai utilisé le nœud Email Trigger (IMAP/Gmail) pour détecter automatiquement les nouveaux messages entrants 
-                    <a href="https://community.n8n.io" target="_blank" style="color: #FFD700;">community.n8n.io</a>.
-                </li>
-                <li>
-                    <strong>Extraction des données :</strong> grâce aux nœuds intégrés, j’ai extrait les contenus essentiels (expéditeur, date, corps du message). 
-                    La transformation en JSON s’est appuyée sur la conversion via les capacités du nœud ou des fonctions JavaScript personnalisées, 
-                    s'inspirant de la <a href="https://community.n8n.io" target="_blank" style="color: #FFD700;">communauté n8n</a> pour envoyer un JSON via email ou définir un format exploitable.
-                </li>
-                <li>
-                    <strong>Export JSON :</strong> le workflow est exportable au format JSON, facilitant le partage ou le versioning via 
-                    <a href="https://docs.n8n.io" target="_blank" style="color: #FFD700;">docs.n8n.io</a>.
-                </li>
-                <li>
-                    <strong>Envoi vers GoPaaS :</strong> j’ai ajouté un nœud HTTP Request (ou webhook) pour 
-                    <a href="https://docs.n8n.io/workflows/export-import/" target="_blank" style="color: #FFD700;">envoyer automatiquement chaque email transformé</a> vers GoPaaS, 
-                    où il alimente des processus d’analyse ou des bases de données.
-                </li>
-            </ul>
-        </div>
+<div class="veille-sources">
+    <div class="source-card">
+        <h4><i class="fas fa-globe"></i> WorkFlow réalisé</h4>
+        <ul style="text-align: left; margin-top: 1rem;">
+            <li>
+                <strong>Trigger – Email :</strong> j’ai utilisé le nœud Email Trigger (IMAP/Gmail) pour détecter automatiquement les nouveaux messages entrants 
+                <a href="https://community.n8n.io" target="_blank" style="color: #FFD700;">community.n8n.io</a>.
+            </li>
+            <li>
+                <strong>Extraction des données :</strong> grâce aux nœuds intégrés, j’ai extrait les contenus essentiels (expéditeur, date, corps du message). 
+                La transformation en JSON s’est appuyée sur la conversion via les capacités du nœud ou des fonctions JavaScript personnalisées, 
+                s'inspirant de la <a href="https://community.n8n.io" target="_blank" style="color: #FFD700;">communauté n8n</a> pour envoyer un JSON via email ou définir un format exploitable.
+            </li>
+            <li>
+                <strong>Export JSON :</strong> le workflow est exportable au format JSON, facilitant le partage ou le versioning via 
+                <a href="https://docs.n8n.io" target="_blank" style="color: #FFD700;">docs.n8n.io</a>.
+            </li>
+            <li>
+                <strong>Envoi vers GoPaaS :</strong> j’ai ajouté un nœud HTTP Request (ou webhook) pour 
+                <a href="https://docs.n8n.io/workflows/export-import/" target="_blank" style="color: #FFD700;">envoyer automatiquement chaque email transformé</a> vers GoPaaS, 
+                où il alimente des processus d’analyse ou des bases de données.
+            </li>
+        </ul>
+
+        <!-- IMAGE EN DESSOUS -->
+       <img src="image/screen_n8n.png" alt="n8n" class="project-image" onclick="openLightbox('image/screen_n8n.png')">
     </div>
+</div>
+
 
     <h3>Sources & Contributions</h3>
     <div class="grid">
