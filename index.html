@@ -91,7 +91,7 @@
                 </div>
             </div>
         </section>
-.
+
         <!-- Section Compétences -->
         <section id="competences" class="section">
             <h2>Mes Compétences</h2>
@@ -135,7 +135,7 @@
                        <li>Utilisation de Visual Studio Code pour le développement en HTML/CSS.</li>
                        <li>Mise en place d’une structure de projet claire (dossiers pour les vues, les styles etc.).</li>
                        <li>Mise en œuvre d'une veille technologique pour m’améliorer sur l'accessibilité et l'ergonomie des interfaces HTML/CSS.</li>
-                       <li>Capacité à conduire un projet de développement de manière autonome et organisée, en respectant les attentes en entreprise (qualité du rendu, lisibilité du code)).</li>
+                       <li>Capacité à conduire un projet de développement de manière autonome et organisée, en respectant les attentes en entreprise (qualité du rendu, lisibilité du code).</li>
                     </p>                    
                 </div>
             </div>
@@ -170,7 +170,7 @@
 
             <div class="project-card">
                 <div class="project-header">
-                    <h3>1er projet : Création d'une application permettant de simplifier la gestion des joueurs de football</h3>
+                    <h3>Création d'une application permettant de simplifier la gestion des joueurs de football</h3>
                     <p><strong>Mission :</strong> Créer une application simple et agile pour simplifier la gestion de milliers de joueurs de foot dans le Monde.</p>
 
                 </div>
@@ -228,7 +228,7 @@
 
           <!-- Section Vues HTML avec design glassmorphism -->
           <div class="views-improvement-section">
-            <div class="views-header">
+            <div class="project-header">
                 <h3>Amélioration des Vues HTML/CSS</h3>
                 <p class="views-mission"><strong>Mission :</strong> Optimisation de l'ergonomie des applications de 5 clients.</p>
             </div>
@@ -353,24 +353,6 @@
 
         </div>
                                    
-            <div class="description-box-obj">
-                <p><strong>Objectifs Techniques :</strong></p>
-                <ul style="margin-left: 1.5rem; margin-bottom: 1rem;">
-                    <li>Utilisation de la plateforme GoPaas;</li>
-                    <li>Implémenter le responsive design (s'adapte a la taille de l'écran de l'utilisateur).</li>
-                </ul>
-
-                    <p><strong>Objectifs Utilisateurs :</strong></p>
-                    <ul style="margin-left: 1.5rem; margin-bottom: 1rem;">
-                        <li>Assurer la satisfaction client suite aux différentes demandes;</li>
-                        <li>Développer une interface intuitive avec navigation fluide entre les 4 modules principaux;</li>
-                        <li>Améliorer l'accessibilité.</li>
-                    </ul>
-            </div>
-                        
-                
-              
-        
            
         </section>
 
@@ -386,8 +368,8 @@
     <h2>Veille et automatisation avec n8n</h2>
     
     <div class="card">
-        <p>Dans le cadre de mon stage, j’ai mis en place une veille technologique axée sur l'outil n8n, plateforme open-source de workflows low-code.</p>
-        <p>Mon objectif principal était d'automatiser la récupération d'emails, leur transformation en JSON, et leur intégration dans GoPaaS pour alimenter des tableaux de bord ou des processus métiers.</p>
+        <p>Dans le cadre de mon stage, j’ai mis en place avec l’équipe technique de NiDS consulting une veille technologique axée sur l'outil n8n, plateforme open-source de workflows low-code.</p>
+        <p> Mon objectif principal était d'automatiser la récupération d'emails, leur transformation en JSON, et leur intégration dans GoPaaS pour créer des fiches intervention.</p>
     </div>
     <br><br>
 
@@ -396,25 +378,26 @@
     <div class="source-card">
         <h4><i class="fas fa-globe"></i> WorkFlow réalisé</h4>
         <ul style="text-align: left; margin-top: 1rem;">
-            <li>
-                <strong>Trigger – Email :</strong> j’ai utilisé le nœud Email Trigger (IMAP/Gmail) pour détecter automatiquement les nouveaux messages entrants 
-                <a href="https://community.n8n.io" target="_blank" style="color: #FFD700;">community.n8n.io</a>.
-            </li>
-            <li>
-                <strong>Extraction des données :</strong> grâce aux nœuds intégrés, j’ai extrait les contenus essentiels (expéditeur, date, corps du message). 
-                La transformation en JSON s’est appuyée sur la conversion via les capacités du nœud ou des fonctions JavaScript personnalisées, 
-                s'inspirant de la <a href="https://community.n8n.io" target="_blank" style="color: #FFD700;">communauté n8n</a> pour envoyer un JSON via email ou définir un format exploitable.
-            </li>
-            <li>
-                <strong>Export JSON :</strong> le workflow est exportable au format JSON, facilitant le partage ou le versioning via 
-                <a href="https://docs.n8n.io" target="_blank" style="color: #FFD700;">docs.n8n.io</a>.
-            </li>
-            <li>
-                <strong>Envoi vers GoPaaS :</strong> j’ai ajouté un nœud HTTP Request (ou webhook) pour 
-                <a href="https://docs.n8n.io/workflows/export-import/" target="_blank" style="color: #FFD700;">envoyer automatiquement chaque email transformé</a> vers GoPaaS, 
-                où il alimente des processus d’analyse ou des bases de données.
-            </li>
-        </ul>
+    <li>
+        <strong>Déclencheur – Email :</strong> j’ai utilisé le Trigger Email (IMAP) pour détecter automatiquement les nouveaux messages entrants 
+        <a href="https://community.n8n.io" target="_blank" style="color: #FFD700;">community.n8n.io</a>.
+    </li>
+    <li>
+        <strong>Extraction des données :</strong> j’ai extrait les contenus essentiels (expéditeur, date, corps du message) ainsi que les pièces jointes au format 
+        <code>.csv</code>.
+    </li>
+    <li>
+        <strong>Transformation :</strong> j’ai transformé les données du fichier CSV en JSON à l’aide de fonctions JavaScript personnalisées, 
+        en m’inspirant de la communauté 
+        <a href="https://community.n8n.io" target="_blank" style="color: #FFD700;">n8n</a> et de la documentation 
+        <a href="https://docs.n8n.io" target="_blank" style="color: #FFD700;">docs.n8n.io</a>.
+    </li>
+    <li>
+        <strong>Action :</strong> j’ai utilisé un nœud HTTP Request pour 
+        <a href="https://docs.n8n.io/workflows/export-import/" target="_blank" style="color: #FFD700;">envoyer automatiquement les emails transformés</a> vers GoPaaS, 
+        où les données alimentent la création de fiches d’intervention.
+    </li>
+</ul>
 
         <!-- IMAGE EN DESSOUS -->
        <img src="image/screen_n8n.png" alt="n8n"  onclick="openLightbox('image/screen_n8n.png')">
@@ -441,7 +424,6 @@
         <ul style="margin-left: 2rem; margin-top: 1rem;">
             <li>rationaliser la collecte d’informations issues de mails, en les structurant pour GoPaaS;</li>
             <li>optimiser la transformation et l’acheminement, sans intervention manuelle;</li>
-            <li>proposer une version améliorée du workflow, en automatisant la mise en conformité JSON et en surveillant les erreurs d’intégrité des données.</li>
         </ul>
     </div>
 </section>
