@@ -593,7 +593,6 @@ h2::after {
     transform: translate(-50%, -50%);
     font-size: clamp(2rem, 5vw, 3rem);
     color: rgba(255, 255, 255, 0.4);
-    animation: pulse 2s infinite;
     z-index: 5;
 }
 
