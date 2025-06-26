@@ -793,7 +793,7 @@ ul li::before {
     }
     
     .nav-links {
-        gap: 1rem;
+        gap: 3rem;
     }
     
     .hero {
