@@ -763,7 +763,7 @@ ul li::before {
     content: '▸';
     color: var(--primary-color);
     position: absolute;
-    left: -1.2rem;
+    left: -0.9rem;
 }
 
 /* Custom Scrollbar */
