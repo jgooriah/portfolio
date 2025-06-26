@@ -6,24 +6,18 @@
     <title>Portfolio BTS SIO - SLAM</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
+
 </head>
 
 <body>
     <header>
         <nav>
             <div class="logo">Portfolio BTS SIO</div>
-            
-            <!-- Menu hamburger pour mobile -->
-            <div class="menu-toggle" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            
             <ul class="nav-links">
-                <li><a onclick="showSection('accueil'); closeMenu()"><i class="fas fa-home"></i> Accueil</a></li>
-                <li><a onclick="showSection('competences'); closeMenu()"><i class="fas fa-code"></i> Compétences</a></li>
-                <li><a onclick="showSection('veille'); closeMenu()"><i class="fas fa-eye"></i> Veille Technologique</a></li>
+                <li><a onclick="showSection('accueil')"><i class="fas fa-home"></i> Accueil</a></li>
+                <li><a onclick="showSection('competences')"><i class="fas fa-code"></i> Compétences</a></li>
+                <li><a onclick="showSection('veille')"><i class="fas fa-eye"></i> Veille Technologique</a></li>
             </ul>
         </nav>
     </header>
@@ -139,8 +133,8 @@
                     <div class="competence-badge">Organiser son développement professionnel</div>
                     <p style="margin: 1rem 0;"><strong>Description :</strong>
                        <li>Utilisation de Visual Studio Code pour le développement en HTML/CSS.</li>
-                       <li>Mise en place d'une structure de projet claire (dossiers pour les vues, les styles etc.).</li>
-                       <li>Mise en place d'une veille technologique pour m'améliorer sur le code HTML et CSS.</li>
+                       <li>Mise en place d’une structure de projet claire (dossiers pour les vues, les styles etc.).</li>
+                       <li>Mise en place d'une veille technologique pour m’améliorer sur le code HTML et CSS.</li>
                        <li>Capacité à conduire un projet de développement de manière autonome et organisée, en respectant les attentes en entreprise (qualité du rendu, lisibilité du code).</li>
                     </p>                    
                 </div>
@@ -170,6 +164,10 @@
                 </p>
             </div>
             
+            
+            
+
+
             <div class="project-card">
                 <div class="project-header">
                     <h3>Création d'une application permettant de simplifier la gestion des joueurs de football</h3>
@@ -227,6 +225,7 @@
                 </div>
             </div>
 
+
           <!-- Section Vues HTML avec design glassmorphism -->
           <div class="views-improvement-section">
             <div class="project-header">
@@ -274,6 +273,8 @@
                 </div>
             </div>
 
+           
+
             <!-- Troisième comparaison -->
             <div class="views-comparison-group">
                 <h4 class="views-section-title">VUE pour le client ISCE</h4>
@@ -312,45 +313,47 @@
                 </div>
             </div>
 
-            <!-- Cinquieme comparaison -->
-            <div class="views-comparison-group">
-                <h4 class="views-section-title">VUE pour le client HOMELIFE</h4>
-                <div class="views-comparison-layout">
-                    <div class="view-section before single-image">
-                        <h5 class="view-title"> avant modification</h5>
-                        <img src="image/vue14.png" alt=" avant modification" class="screenshot" onclick="openLightbox('image/vue14.png')">
-                    </div>
+ <!-- Cinquieme comparaison -->
+ <div class="views-comparison-group">
+    <h4 class="views-section-title">VUE pour le client HOMELIFE</h4>
+    <div class="views-comparison-layout">
+        <div class="view-section before single-image">
+            <h5 class="view-title"> avant modification</h5>
+            <img src="image/vue14.png" alt=" avant modification" class="screenshot" onclick="openLightbox('image/vue14.png')">
+        </div>
 
-                    <div class="view-section after single-image">
-                        <h5 class="view-title"> après modification</h5>
-                        <img src="image/vue14_.png" alt=" après modification" class="screenshot" onclick="openLightbox('image/vue14_.png')">
-                        <p class="view-description">Cette vue est utilisée par 200 techniciens</p>
-                    </div>
-                    
-                    <div class="comparison-arrow">→</div>
-                </div>
-            </div>
+        <div class="view-section after single-image">
+            <h5 class="view-title"> après modification</h5>
+            <img src="image/vue14_.png" alt=" après modification" class="screenshot" onclick="openLightbox('image/vue14_.png')">
+            <p class="view-description">Cette vue est utilisée par 200 techniciens</p>
+        </div>
+        
+        <div class="comparison-arrow">→</div>
+    </div>
+</div>
 
-            <!-- Sixieme comparaison -->
-            <div class="views-comparison-group">
-                <h4 class="views-section-title">VUE pour le client SACRED SUN</h4>
-                <div class="views-comparison-layout">
-                    <div class="view-section before single-image">
-                        <h5 class="view-title"> avant modification</h5>
-                        <img src="image/screen20.png" alt=" avant modification" class="screenshot" onclick="openLightbox('image/screen20.png')">
-                    </div>
+<!-- Sixieme comparaison -->
+<div class="views-comparison-group">
+    <h4 class="views-section-title">VUE pour le client SACRED SUN</h4>
+    <div class="views-comparison-layout">
+        <div class="view-section before single-image">
+            <h5 class="view-title"> avant modification</h5>
+            <img src="image/screen20.png" alt=" avant modification" class="screenshot" onclick="openLightbox('image/screen20.png')">
+        </div>
 
-                    <div class="view-section after single-image">
-                        <h5 class="view-title"> après modification</h5>
-                        <img src="image/screen21.png" alt=" après modification" class="screenshot" onclick="openLightbox('image/screen21.png')">
-                        <p class="view-description">Cette vue est utilisée par 10 commerciaux</p>
-                    </div>
-                    
-                    <div class="comparison-arrow">→</div>
-                </div>
-            </div>
+        <div class="view-section after single-image">
+            <h5 class="view-title"> après modification</h5>
+            <img src="image/screen21.png" alt=" après modification" class="screenshot" onclick="openLightbox('image/screen21.png')">
+            <p class="view-description">Cette vue est utilisée par 10 commerciaux</p>
+        </div>
+        
+        <div class="comparison-arrow">→</div>
+    </div>
+</div>
+
         </div>
                                    
+           
         </section>
 
         <!-- Lightbox pour agrandir les images -->
@@ -360,88 +363,80 @@
         </div>
 
        <!-- Section Veille Technologique -->
+
        <section id="veille" class="section">
-            <h2>Veille et automatisation avec n8n</h2>
-            
-            <div class="card">
-                <p>Dans le cadre de mon stage, j'ai mis en place avec l'équipe technique de NiDS consulting une veille technologique axée sur l'outil n8n, plateforme open-source de workflows low-code.</p>
-                <p> Mon objectif principal était d'automatiser la récupération d'emails avec une pièce jointe en csv, leur transformation en JSON, et leur intégration dans GoPaaS pour créer des fiches intervention.</p>
-            </div>
-            <br><br>
+    <h2>Veille et automatisation avec n8n</h2>
+    
+    <div class="card">
+        <p>Dans le cadre de mon stage, j’ai mis en place avec l’équipe technique de NiDS consulting une veille technologique axée sur l'outil n8n, plateforme open-source de workflows low-code.</p>
+        <p> Mon objectif principal était d'automatiser la récupération d'emails avec une pièce jointe en csv, leur transformation en JSON, et leur intégration dans GoPaaS pour créer des fiches intervention.</p>
+    </div>
+    <br><br>
 
-            <h3>Sources d'Information</h3>
-            <div class="veille-sources">
-                <div class="source-card">
-                    <h4><i class="fas fa-globe"></i> WorkFlow réalisé</h4>
-                    <ul style="text-align: left; margin-top: 1rem;">
-                <li>
-                    <strong>Déclencheur – Email :</strong> j'ai utilisé le Trigger Email (IMAP) pour détecter automatiquement les nouveaux messages entrants 
-                    <a href="https://community.n8n.io" target="_blank" style="color: #FFD700;">community.n8n.io</a>.
-                </li>
-                <li>
-                    <strong>Extraction des données :</strong> j'ai extrait les contenus essentiels (expéditeur, date, corps du message) ainsi que les pièces jointes au format 
-                    <code>.csv</code>.
-                </li>
-                <li>
-                    <strong>Transformation :</strong> j'ai transformé les données du fichier CSV en JSON à l'aide de fonctions JavaScript personnalisées, 
-                    en m'inspirant de la communauté 
-                    <a href="https://community.n8n.io" target="_blank" style="color: #FFD700;">n8n</a> et de la documentation 
-                    <a href="https://docs.n8n.io" target="_blank" style="color: #FFD700;">docs.n8n.io</a>.
-                </li>
-                <li>
-                    <strong>Action :</strong> j'ai utilisé un nœud HTTP Request pour 
-                    <a href="https://docs.n8n.io/workflows/export-import/" target="_blank" style="color: #FFD700;">envoyer automatiquement les emails transformés</a> vers GoPaaS, 
-                    où les données alimentent la création de fiches d'intervention.
-                </li>
-            </ul>
+    <h3>Sources d'Information</h3>
+<div class="veille-sources">
+    <div class="source-card">
+        <h4><i class="fas fa-globe"></i> WorkFlow réalisé</h4>
+        <ul style="text-align: left; margin-top: 1rem;">
+    <li>
+        <strong>Déclencheur – Email :</strong> j’ai utilisé le Trigger Email (IMAP) pour détecter automatiquement les nouveaux messages entrants 
+        <a href="https://community.n8n.io" target="_blank" style="color: #FFD700;">community.n8n.io</a>.
+    </li>
+    <li>
+        <strong>Extraction des données :</strong> j’ai extrait les contenus essentiels (expéditeur, date, corps du message) ainsi que les pièces jointes au format 
+        <code>.csv</code>.
+    </li>
+    <li>
+        <strong>Transformation :</strong> j’ai transformé les données du fichier CSV en JSON à l’aide de fonctions JavaScript personnalisées, 
+        en m’inspirant de la communauté 
+        <a href="https://community.n8n.io" target="_blank" style="color: #FFD700;">n8n</a> et de la documentation 
+        <a href="https://docs.n8n.io" target="_blank" style="color: #FFD700;">docs.n8n.io</a>.
+    </li>
+    <li>
+        <strong>Action :</strong> j’ai utilisé un nœud HTTP Request pour 
+        <a href="https://docs.n8n.io/workflows/export-import/" target="_blank" style="color: #FFD700;">envoyer automatiquement les emails transformés</a> vers GoPaaS, 
+        où les données alimentent la création de fiches d’intervention.
+    </li>
+</ul>
 
-                    <!-- IMAGE EN DESSOUS -->
-            <img 
-                src="image/screen_n8n.png" 
-                alt="n8n" 
-                onclick="openLightbox('image/screen_n8n.png')" 
-                style="max-width: 100%; height: auto; display: block; margin: 1rem auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);"
-            />
-                </div>
-            </div>
+        <!-- IMAGE EN DESSOUS -->
+<img 
+    src="image/screen_n8n.png" 
+    alt="n8n" 
+    onclick="openLightbox('image/screen_n8n.png')" 
+    style="max-width: 100%; height: auto; display: block; margin: 1rem auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);"
+/>
+    </div>
+</div>
 
-            <h3>Sources & Contributions</h3>
-            <div class="grid">
-                <div class="card">
-                    <p>Documentation officielle de n8n pour comprendre les nœuds Email Trigger et HTTP Request, ainsi que l'export des workflows en JSON : 
-                    <a href="https://docs.n8n.io" target="_blank" style="color: #FFD700;">docs.n8n.io</a> et 
-                    <a href="https://n8n.io" target="_blank" style="color: #FFD700;">n8n.io</a>.</p>        
-                </div>
-                
-                <div class="card">
-                    <p>Blog et vidéos YouTube (<a href="https://n8n.io" target="_blank" style="color: #FFD700;">n8n</a>, Syrom, etc.) m'ont inspiré pour structurer proprement les workflows et assurer leur robustesse 
-                    <a href="https://medium.com" target="_blank" style="color: #FFD700;">medium.com</a>.</p>
-                </div>
-            </div>
 
-            <div class="card">
-                <h3>Cette veille m'a permis de:</h3>
-                <ul style="margin-left: 2rem; margin-top: 1rem;">
-                    <li>rationaliser la collecte d'informations issues de mails, en les structurant pour GoPaaS;</li>
-                    <li>optimiser la transformation et l'acheminement, sans intervention manuelle;</li>
-                </ul>
-            </div>
-        </section>
+    <h3>Sources & Contributions</h3>
+    <div class="grid">
+        <div class="card">
+            <p>Documentation officielle de n8n pour comprendre les nœuds Email Trigger et HTTP Request, ainsi que l’export des workflows en JSON : 
+            <a href="https://docs.n8n.io" target="_blank" style="color: #FFD700;">docs.n8n.io</a> et 
+            <a href="https://n8n.io" target="_blank" style="color: #FFD700;">n8n.io</a>.</p>        
+        </div>
+        
+        <div class="card">
+            <p>Blog et vidéos YouTube (<a href="https://n8n.io" target="_blank" style="color: #FFD700;">n8n</a>, Syrom, etc.) m’ont inspiré pour structurer proprement les workflows et assurer leur robustesse 
+            <a href="https://medium.com" target="_blank" style="color: #FFD700;">medium.com</a>.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <h3>Cette veille m'a permis de:</h3>
+        <ul style="margin-left: 2rem; margin-top: 1rem;">
+            <li>rationaliser la collecte d’informations issues de mails, en les structurant pour GoPaaS;</li>
+            <li>optimiser la transformation et l’acheminement, sans intervention manuelle;</li>
+        </ul>
+    </div>
+</section>
+
+
     </main>
 
     <script>
-        // Fonction pour basculer le menu mobile
-        function toggleMenu() {
-            const navLinks = document.querySelector('.nav-links');
-            navLinks.classList.toggle('active');
-        }
-
-        // Fonction pour fermer le menu mobile
-        function closeMenu() {
-            const navLinks = document.querySelector('.nav-links');
-            navLinks.classList.remove('active');
-        }
-
         function showSection(sectionName) {
             // Masquer toutes les sections
             const sections = document.querySelectorAll('.section');
@@ -489,17 +484,6 @@
             e.stopPropagation();
         });
 
-        // Fermer le menu mobile en cliquant à l'extérieur
-        document.addEventListener('click', function(e) {
-            const nav = document.querySelector('nav');
-            const navLinks = document.querySelector('.nav-links');
-            const menuToggle = document.querySelector('.menu-toggle');
-            
-            if (!nav.contains(e.target) && navLinks.classList.contains('active')) {
-                closeMenu();
-            }
-        });
-
         // Animation au scroll
         window.addEventListener('scroll', function() {
             const header = document.querySelector('header');
@@ -507,13 +491,6 @@
                 header.style.background = 'rgba(15, 15, 35, 0.95)';
             } else {
                 header.style.background = 'rgba(15, 15, 35, 0.9)';
-            }
-        });
-
-        // Fermer le menu mobile lors du redimensionnement de la fenêtre
-        window.addEventListener('resize', function() {
-            if (window.innerWidth > 768) {
-                closeMenu();
             }
         });
     </script>
